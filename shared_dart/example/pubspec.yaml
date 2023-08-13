@@ -1,0 +1,27 @@
+name: shared_dart_example
+description: Demonstrates how to use the shared_dart plugin.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_dart:
+    path: ../
+  cupertino_icons: ^1.0.2
+  json_annotation: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.6.1
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.auroraos.shared_aurora
+Exec=/usr/bin/ru.auroraos.shared_aurora
+Name=Shared
+Name[ru]=Шаблон
+
+[X-Application]
+Permissions=
+OrganizationName=ru.auroraos
+ApplicationName=shared_aurora
+ExecDBus=/usr/bin/ru.auroraos.shared_aurora

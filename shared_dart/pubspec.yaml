@@ -1,0 +1,28 @@
+name: shared_dart
+description: A new Flutter FFI plugin project.
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.0.2
+  path: ^1.8.3
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  ffigen: ^8.0.2
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+ffigen:
+  name: Shared
+  description: KMP dynamic library
+  output: 'lib/shared_dart_bindings_generated.dart'
+  headers:
+    entry-points:
+      - '../shared_kmp/shared/build/bin/native/releaseShared/libnative_api.h'
