@@ -8,3 +8,4 @@
 ## git clone https://github.com/keygenqt/lottie-qml.git "$PWD/shop/qml/lottie-qml"
 /shop/qml/lottie-qml/
 *.autosave
+native
