@@ -7,8 +7,8 @@ repositories {
 }
 
 kotlin {
-    linuxArm32Hfp("native") {
-//    linuxX64("native") {
+//    linuxArm32Hfp("native") {
+    linuxX64("native") {
         binaries {
             sharedLib {
                 baseName = "native"
@@ -18,8 +18,8 @@ kotlin {
     sourceSets {
         val nativeMain by getting {
             dependencies {
-//                implementation("io.ktor:ktor-client-core:2.3.3")
-//                implementation("io.ktor:ktor-client-curl:2.3.3")
+                implementation("io.ktor:ktor-client-core:2.3.3")
+                implementation("io.ktor:ktor-client-curl:2.3.3")
             }
         }
     }
